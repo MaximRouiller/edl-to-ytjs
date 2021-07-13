@@ -2,7 +2,13 @@
 
 When using DaVinci Resolve, you can export all of your markers on your timeline as an EDL file. Those contains the timestamp as well as the name of those markers.
 
-This simple CLI tool allow you to process that file and generate a YouTube-friendly chapter generator.
+To easily do so, go to DaVinci Resolve Edit.
+![DaVinci Edit](/images/davinci-edit.png)
+
+Open up the Media Pool, then right click on your Timeline and Select: `Timelines > Export > Timeline markers to EDL...`
+![DaVinci Export Timeline Markers](/images/davinci-export-markers.png)
+
+This simple CLI tool allow you to process that EDL file and generate a YouTube-friendly chapter section.
 
 ## Usage
 
